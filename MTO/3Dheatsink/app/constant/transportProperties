@@ -1,0 +1,45 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+transportModel  Newtonian;
+//fluid
+nu                           nu [0 2 -1 0 0 0 0] 1.0e-6;
+alphaMax               alphaMax [0 0 -1 0 0 0 0] 5000;
+alphamax               alphamax [0 0 -1 0 0 0 0] 5000;
+
+// opt
+raa0                   1e-6;
+mma_init               0.5;
+mma_dec                0.7;
+mma_inc                1.2;
+movlim                 0.4;
+
+voluse                 0.2;
+filter_Radius          2;
+solid_area             0;
+fluid_area             1;
+test_PD                0;
+
+D_normalization        1.0e-09;
+D0                     10;
+D1                     4;
+geo_dim                3;
+
+b1                     b1 [0 2 -2 -2 0 0 0] 1;
+qu                     0.005;
+
+

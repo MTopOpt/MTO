@@ -1,0 +1,8 @@
+adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.C
+adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.C
+
+adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C
+adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C
+
+MTO_TF.C
+EXE = $(FOAM_USER_APPBIN)/MTO_TF
