@@ -1,0 +1,14 @@
+EXE_INC = \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude \
+    -I$(PETSC_DIR)/include \
+    -I$(PETSC_DIR)/include/mpiuni \
+    -I$(PETSC_DIR)/$(PETSC_ARCH)/include 
+EXE_LIBS = \
+    -lfiniteVolume \
+    -lmeshTools \
+    -lfvOptions \
+    -L$(PETSC_DIR)/$(PETSC_ARCH)/lib \
+    -lpetsc \
+    -L$(FOAM_USER_LIBBIN) \
+    -lMMA_yu
