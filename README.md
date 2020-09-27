@@ -33,3 +33,7 @@ Thermal-fluid problem-2D
 Thermal-fluid problem-3D  
 ------------------------
 ![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/heatsink_3D.gif)  
+
+Three-dimensional topology optimization of thermal-fluid-structural problems for cooling system design 
+Email：yuminghao_dlut@163.com
+
