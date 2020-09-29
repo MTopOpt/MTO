@@ -23,16 +23,17 @@ After the optimization, users should run **reconstructPar** in the app folder an
 
 Solid displacement problem-2D  
 -----------------------------
-![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/beam_2D.gif)  
+![image](https://github.com/MTopOpt/MTO/blob/master/MTO/beam_2D.gif)  
+
 Solid displacement problem-3D  
 -----------------------------
-![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/beam_3D.gif)  
+![image](https://github.com/MTopOpt/MTO/blob/master/MTO/beam_3D.gif)  
 Thermal-fluid problem-2D  
 ------------------------
-![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/heatsink_2D.gif)  
+![image](https://github.com/MTopOpt/MTO/blob/master/MTO/heatsink_2D.gif)  
 Thermal-fluid problem-3D  
 ------------------------
-![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/heatsink_3D.gif)  
+![image](https://github.com/MTopOpt/MTO/blob/master/MTO/heatsink_3D.gif)  
 
 Three-dimensional topology optimization of thermal-fluid-structural problems for cooling system design 
 Email：yuminghao_dlut@163.com
