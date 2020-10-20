@@ -35,6 +35,6 @@ Thermal-fluid problem-3D
 ------------------------
 ![image](https://github.com/MTopOpt/MTO/blob/master/MTO/heatsink_3D.gif)  
 
-Three-dimensional topology optimization of thermal-fluid-structural problems for cooling system design 
+Yu, M., Ruan, S., Gu, J. et al. Three-dimensional topology optimization of thermal-fluid-structural problems for cooling system design. Struct Multidisc Optim (2020). https://doi.org/10.1007/s00158-020-02731-z 
 Email：yuminghao_dlut@163.com
 
