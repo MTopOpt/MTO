@@ -14,7 +14,7 @@ Before running this solver, following softwares are needed.
 (b) **PETSc 3.12**  
 (c) **swak4Foam**  
 
-Parallel version of MMA written by Aage is also needed for updating the design variables (https://github.com/topopt/TopOpt_in_PETSc/MMA.cc). We have changed this code to apply it in our solver. For simplicity, the C++ script have been compiled into a dynamic library (**libMMA_yu.so**), users should put this file in **FOAM_USER_LIBBIN** after installing OpenFOAM.  
+Parallel version of MMA written by Aage is also needed for updating the design variables (https://github.com/topopt/TopOpt_in_PETSc/MMA.cc). We have changed this code to apply it in our solver. For simplicity, the C++ script have been compiled into a dynamic library (**libMMA_yu.so**), users should put this file in **FOAM_USER_LIBBIN** after installing OpenFOAM.  **The source code of MMA is also uploaded, we suggest users compile their own library**
 
 Run the solver
 --------------
