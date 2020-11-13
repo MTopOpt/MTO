@@ -12,7 +12,7 @@ Installation
 Before running this solver, following softwares are needed.  
 (a) **OpenFOAM 5.0**  
 (b) **PETSc 3.12**  
-(c) **swak4Foam**  
+(c) **swak4Foam**  development version（my version is 0.4.3）
 
 Parallel version of MMA written by Aage is also needed for updating the design variables (https://github.com/topopt/TopOpt_in_PETSc/MMA.cc). We have changed this code to apply it in our solver.Users should compile the C++ script (MMA.C MMA.H) into a dynamic library (**libMMA_yu.so**) and put this file in **FOAM_USER_LIBBIN** after installing OpenFOAM.  
 
