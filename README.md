@@ -38,4 +38,8 @@ Thermal-fluid problem-3D
 ------------------------
 ![image](https://github.com/MTopOpt/MTO/blob/master/MTO/heatsink_3D.gif)  
 
+![image](https://github.com/MTopOpt/MTO/blob/master/MTO/12.gif)  
+
+![image](https://github.com/MTopOpt/MTO/blob/master/MTO/13.gif)  
+
 
