@@ -9,14 +9,21 @@ Yu, M., Ruan, S., Gu, J. et al. Three-dimensional topology optimization of therm
 Installation
 ------------
 **The old version of MTO is difficult to install, so I made some changes in the code.**
+
 Before running this solver, following softwares are needed.  
+
 (a) **OpenFOAM 6.0**  (www.openfoam.org)
+
 (b) **swak4Foam** (if you use thermal-fluid solver) (https://openfoamwiki.net/index.php/Contrib/swak4Foam)
 
 **Here are some installation instructions:**
+
 1. OpenFOAM 6.0 is only valid on Ubuntu16.04 - 18.04, so you should use the correct Ubuntu version.
+
 2. Intall OpenFOAM 6.0 (see appendix documents OpenFOAM_Ubuntu.md for details)
+
 3. cd /opt/openfoam6/wmake/rules then open the file c and relpace the fifth line gcc with mpicc
+
 4. cd /opt/openfoam6/wmake/rules then open the file c++ and relpace the fifth line g++ with mpic++
 
 Run the solver
