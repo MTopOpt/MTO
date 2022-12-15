@@ -20,7 +20,7 @@ Before running this solver, following softwares are needed.
 
 1. OpenFOAM 6.0 is only valid on Ubuntu16.04 - 18.04, so you should use the correct Ubuntu version.
 
-2. Intall OpenFOAM 6.0 (see appendix documents OpenFOAM_Ubuntu.md for details)
+2. Install OpenFOAM 6.0 (see appendix documents OpenFOAM_Ubuntu.md for details)
 
 3. cd /opt/openfoam6/wmake/rules then open the file c and relpace the fifth line gcc with mpicc
 
