@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "sensitivity.H": "cpp",
-        "filter_chainrule.H": "cpp",
-        "opt_initialization.H": "cpp",
-        "readMechanicalProperties.H": "cpp",
-        "readTransportProperties.H": "cpp"
-    }
-}
