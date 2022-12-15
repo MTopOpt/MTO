@@ -1,0 +1,26 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      thermalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+kf                           kf [1 1 -3 -1 0 0 0] 0.61;
+ks                           ks [1 1 -3 -1 0 0 0] 237;
+rhoc                         rhoc [1 -1 -2 -1 0 0 0] 4180000;
+Talpha                       Taplha [0 0 0 -1 0 0 0] 2e-5;
+thermalStress   no;
+DDHS no;
+
+// ************************************************************************* //

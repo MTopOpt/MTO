@@ -1,0 +1,5 @@
+SOURCE = \
+adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C \
+adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C \
+MMA/MMA.C \
+MTO_Fluid.C 

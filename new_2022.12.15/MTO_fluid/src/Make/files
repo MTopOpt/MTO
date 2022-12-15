@@ -1,0 +1,8 @@
+
+
+adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C
+adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C
+MMA/MMA.C
+
+MTO_Fluid.C
+EXE = $(FOAM_USER_APPBIN)/MTO_Fluid

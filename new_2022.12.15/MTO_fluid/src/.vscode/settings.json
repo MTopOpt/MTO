@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "MTO_ThermalFluid.C": "cpp",
+        "diff.c": "cpp",
+        "ostream": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "iosfwd": "cpp",
+        "MTO_Fluid.C": "cpp",
+        "filter_x.H": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
+    }
+}

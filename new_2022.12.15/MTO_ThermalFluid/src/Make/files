@@ -1,0 +1,10 @@
+
+adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.C
+adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.C
+
+adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C
+adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C
+MMA/MMA.C
+
+MTO_ThermalFluid.C
+EXE = $(FOAM_USER_APPBIN)/MTO_ThermalFluid
