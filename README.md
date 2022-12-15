@@ -36,7 +36,7 @@ After the optimization, users should run **reconstructPar** in the app folder an
 
 Solid displacement problem-2D  
 -----------------------------
-![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/beam_2D.gif)  
+![image](https://github.com/MTopOpt/MTO/blob/master/beam_2D.gif)  
 Solid displacement problem-3D  
 -----------------------------
 ![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/beam_3D.gif) 
