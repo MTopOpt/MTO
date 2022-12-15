@@ -37,17 +37,16 @@ After the optimization, users should run **reconstructPar** in the app folder an
 Solid displacement problem-2D  
 -----------------------------
 ![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/beam_2D.gif)  
-
 Solid displacement problem-3D  
 -----------------------------
-![image]([https://github.com/MTopOpt/MTO/blob/master/MTO/beam_3D.gif](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/beam_3D.gif))  
+![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/beam_3D.gif) 
 Thermal-fluid problem-2D  
 ------------------------
-![image]([https://github.com/MTopOpt/MTO/blob/master/MTO/heatsink_2D.gif](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/heatsink_2D.gif))  
+![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/heatsink_2D.gif)
 Thermal-fluid problem-3D  
 ------------------------
-![image]([https://github.com/MTopOpt/MTO/blob/master/MTO/heatsink_3D.gif](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/heatsink_3D.gif))  
+![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/heatsink_3D.gif)
 
-![image]([https://github.com/MTopOpt/MTO/blob/master/MTO/12.gif](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/12.gif))  
+![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/12.gif)  
 
-![image]([https://github.com/MTopOpt/MTO/blob/master/MTO/13.gif](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/13.gif))  
+![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/13.gif)
