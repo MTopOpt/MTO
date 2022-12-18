@@ -1,0 +1,13 @@
+
+adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.C
+adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.C
+
+adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C
+adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C
+
+tractionDisplacement/tractionDisplacementFvPatchVectorField.C
+
+MMA/MMA.C
+
+MTO_TFS.C
+EXE = $(FOAM_USER_APPBIN)/MTO_TFS

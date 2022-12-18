@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "MTO_ThermalFluid.C": "cpp",
-        "diff.c": "cpp"
+        "diff.c": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     }
 }

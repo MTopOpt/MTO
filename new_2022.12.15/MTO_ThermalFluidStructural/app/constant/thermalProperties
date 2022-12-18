@@ -1,0 +1,27 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      thermalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//thermal
+kf                           kf [1 1 -3 -1 0 0 0] 0.61;//流体导热系数
+ks                           ks [1 1 -3 -1 0 0 0] 237;//固体导热系数
+rhoc                       rhoc [1 -1 -2 -1 0 0 0] 4180000;//流体密度乘以比热容
+Talpha                   Taplha [0 0 0 -1 0 0 0] 0;//热膨胀系数
+
+thermalStress   no;//是否考虑热应力
+
+
+// ************************************************************************* //

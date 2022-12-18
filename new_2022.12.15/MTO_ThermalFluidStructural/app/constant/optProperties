@@ -1,0 +1,42 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      optProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//MMA的相关参数
+raa0                1e-5;
+voluse              0.2;
+mma_init            0.3;
+mma_dec             0.7;
+mma_inc             1.2;
+movlim              0.4;
+filterR             1.7;
+
+//能量耗散的归一化及放松因子
+PowerDiss0          1e-09;
+PowerDissMax        4;
+PowerDissRelax      10;
+
+//结构柔度的归一化及放松因子
+C0                  0.000803571;
+CMax                3;
+CRelax              10;
+
+//几何信息
+GeoDim              3;//模型维度
+fluid_area          yes;//是否有不可设计流体域
+solid_area          yes;//是否有不可设计固体域
+test_area           no;//是否是测试直管模型能量耗散
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //  

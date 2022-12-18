@@ -1,0 +1,48 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     MTO_TFS;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         300;//计算到endTime停止
+
+deltaT          1;//每次优化时间步长
+
+writeControl    timeStep;
+
+writeInterval   5;//每隔5步往硬盘写一次数据
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  4;//硬盘写数据时精度
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   12;
+
+runTimeModifiable true;
+libs ( "libOpenFOAM.so" "libgroovyBC.so" ) ;//链接的库
+// ************************************************************************* //

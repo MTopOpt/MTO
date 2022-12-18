@@ -11,6 +11,7 @@ static char help[] = "topology optimization of fluid problem\n";
 
 int main(int argc, char *argv[])
 {
+    MPI_Init(NULL,NULL);
     #include "setRootCase.H"
     #include "createTime.H"
     #include "createMesh.H"

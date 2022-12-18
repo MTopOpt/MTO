@@ -1,14 +1,11 @@
-//Author: Yu Minghao    Updated: May 2020 
+//Author: Yu Minghao    Updated: May 2020     Email:yuminghao_dlut@163.com
 
-static char help[] = "topology optimization of fluid problem\n";
+static char help[] = "topology optimization of linear elasticity problem\n";
 #include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
 #include "simpleControl.H"
-#include "fvOptions.H"//
 #include "MMA/MMA.h"
 #include <diff.c>
-
+#include <vector>
 int main(int argc, char *argv[])
 {
     MPI_Init(NULL,NULL);
@@ -16,16 +13,14 @@ int main(int argc, char *argv[])
     #include "createTime.H"
     #include "createMesh.H"
     #include "createControl.H"
-    #include "createFvOptions.H"//
     #include "createFields.H"
-    #include "readTransportProperties.H" 
-    #include "initContinuityErrs.H"
+    #include "readMechanicalProperties.H" 
     #include "opt_initialization.H"
+
     while (simple.loop(runTime))
     {
         #include "update.H"
-        #include "Primal_U.H"
-        #include "AdjointFlow_Ua.H"
+        #include "LinearElasticity.H"
         #include "costfunction.H"              
         #include "sensitivity.H"
     }

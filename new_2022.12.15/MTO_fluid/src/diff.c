@@ -1,5 +1,5 @@
 
-scalar diff(volScalarField gamma,scalarField V,double del,double eta,int n)
+scalar diff(volScalarField &gamma,const scalarField &V,double del,double eta,int n)
 {
      int i;
      scalar z=0;

@@ -1,6 +1,6 @@
 
 gsenshPowerDiss=gsenshPowerDiss/gMax(mag(gsenshPowerDiss.primitiveField()));
-gsenshVol.primitiveFieldRef() = 1;
+gsenshVol.primitiveFieldRef()= 1;
 
 //***********************************//Heaviside_filter
 if(opt>1)

@@ -1,6 +1,6 @@
 fsenshMeanT=fsenshMeanT/gMax(mag(fsenshMeanT.primitiveField()));
 gsenshPowerDiss=gsenshPowerDiss/gMax(mag(gsenshPowerDiss.primitiveField()));
-gsenshVol.primitiveFieldRef()=1;
+gsenshVol.primitiveFieldRef() = 1.0;
 //***********************************//Heaviside_filter
 if(opt>1)
 {
