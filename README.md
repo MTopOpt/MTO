@@ -20,7 +20,7 @@ Before running this solver, following softwares are needed.
 
 1. OpenFOAM 6.0 is only valid on Ubuntu16.04 - 18.04, so you should use the correct Ubuntu version.
 
-2. Intall OpenFOAM 6.0 (see appendix documents OpenFOAM_Ubuntu.md for details)
+2. Install OpenFOAM 6.0 (see appendix documents OpenFOAM_Ubuntu.md for details)
 
 3. cd /opt/openfoam6/wmake/rules then open the file c and relpace the fifth line gcc with mpicc
 
@@ -33,20 +33,3 @@ Run the solver
 Postplot
 --------
 After the optimization, users should run **reconstructPar** in the app folder and then run **paraFoam** to view the results with Paraview.  
-
-Solid displacement problem-2D  
------------------------------
-![image](https://github.com/MTopOpt/MTO/blob/master/beam_2D.gif)  
-Solid displacement problem-3D  
------------------------------
-![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/beam_3D.gif) 
-Thermal-fluid problem-2D  
-------------------------
-![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/heatsink_2D.gif)
-Thermal-fluid problem-3D  
-------------------------
-![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/heatsink_3D.gif)
-
-![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/12.gif)  
-
-![image](https://github.com/MTopOpt/MTO/blob/master/old_version/MTO/13.gif)
