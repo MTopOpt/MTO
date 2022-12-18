@@ -11,7 +11,6 @@ static char help[] = "topology optimization of thermal-fluid-structural problem\
 
 int main(int argc, char *argv[])
 {
-    MPI_Init(NULL,NULL);
     #include "setRootCase.H"
     #include "createTime.H"
     #include "createMesh.H"

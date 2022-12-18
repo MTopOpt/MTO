@@ -8,7 +8,6 @@ static char help[] = "topology optimization of linear elasticity problem\n";
 #include <vector>
 int main(int argc, char *argv[])
 {
-    MPI_Init(NULL,NULL);
     #include "setRootCase.H"
     #include "createTime.H"
     #include "createMesh.H"
