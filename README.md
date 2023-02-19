@@ -4,7 +4,10 @@ Description
 -----------
 The code presented is a parallel solver for multi-physics topology optimization on structured or unstructured  grids. Density-based method is adopted for solving 2D or 3D thermal-fluid-structural topology optimization problems based on OpenFOAM. 
 
-Yu, M., Ruan, S., Gu, J. et al. Three-dimensional topology optimization of thermal-fluid-structural problems for cooling system design. Struct Multidisc Optim (2020). https://doi.org/10.1007/s00158-020-02731-z 
+Please cite: Yu, M., Ruan, S., Gu, J. et al. Three-dimensional topology optimization of thermal-fluid-structural problems for cooling system design. Struct Multidisc Optim (2020). https://doi.org/10.1007/s00158-020-02731-z 
+
+My PHD thesis: 《液冷散热器流道与热源分布拓扑优化研究》
+
 
 Installation
 ------------
