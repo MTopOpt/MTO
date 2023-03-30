@@ -25,9 +25,9 @@ Before running this solver, following softwares are needed.
 
 2. Install OpenFOAM 6.0 (see appendix documents OpenFOAM_Ubuntu.md for details)
 
-3. cd /opt/openfoam6/wmake/rules then open the file c and relpace the fifth line gcc with mpicc
+3. cd /opt/openfoam6/wmake/rules/linux64Gcc then open the file c and relpace the fifth line gcc with mpicc
 
-4. cd /opt/openfoam6/wmake/rules then open the file c++ and relpace the fifth line g++ with mpic++
+4. cd /opt/openfoam6/wmake/rules/linux64Gcc then open the file c++ and relpace the fifth line g++ with mpic++
 
 Run the solver
 --------------
